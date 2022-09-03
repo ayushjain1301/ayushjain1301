@@ -1,0 +1,150 @@
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+    padding: 10px 16px;
+    overflow: hidden;
+    display: block;
+    color: white;
+    background-color: #333;
+}
+
+.comic{
+    text-align: center;
+    font-size: 3rem;
+    margin: 22vh;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    overflow: hidden;
+    color: white;
+    background-color: #333;
+}
+
+.discprition{
+    margin: 23vh;
+    margin-top: 2vh;
+    margin-bottom: 0vh;
+    font-size: 2rem;
+    font-style: italic bold;
+}
+
+.input{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0vh;
+    margin-top: 12vh;
+    
+}
+input[type=text] {
+    font-style: bold;
+    font-family:cursive;
+    width: 70%;
+    padding: 10px 25px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    margin: 4vh;
+    border-radius: 1.5vh;
+  }
+.button{
+    text-align: center;
+    margin: 0.5vh;
+}
+
+button[type=submit] {
+    font-style: bold;
+    font-family:cursive;
+    width: 33%;
+    height: 5vh;
+    padding: px 15px;
+    box-sizing: border-box;
+    margin-top: -2vh;
+    background-color: #4CAF50;
+    border-radius: 1.5vh;
+    color: white ;
+    font-size: large;
+    }
+
+.border{
+    border: 2px solid black;
+    margin: 2vh;
+    border-radius: 2vh;
+    margin: 23vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    height: 50vh;
+    
+}
+
+
+.heading:hover{
+    background-color: #111;
+}
+
+.comic:hover{
+    background-color: #111;
+
+}
+
+@media screen and (max-width: 642px) {
+    .heading{
+        font-size: 2rem;
+    }
+
+    .comic{
+        font-size: 2rem;
+        margin: 9vh;
+        margin-top: 2vh;
+        margin-bottom: 0vh;
+  }
+
+    .discprition{
+        font-size: 1rem;
+        margin: 9vh;
+        margin-top: 2vh;
+        margin-bottom: 0vh;
+    }
+
+    input[type=text] {
+        font-style: bold;
+        font-family:cursive;
+        width: 60%;
+        padding: 5px 12px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        margin: 4vh;
+        margin-bottom: 0vh;
+      }
+
+      button[type=submit] {
+        font-style: bold;
+        font-family:cursive;
+        
+        width: 10vh;
+        height: 5.5vh;
+        padding: px 15px;
+        box-sizing: border-box;
+        margin-top: 1vh;
+        background-color: #4CAF50;
+        border-radius: 1.5vh;
+        color: white ;
+        }
+        
+        .set{
+            text-align: center;
+            font-size: 0.5rem;  
+        }
+        .border{
+            border: none;
+        }
+        .img1{
+            width: 100%;
+
+        }
+}
+.set{
+    text-align: center;
+}
+.img1{
+    text-align: center;
+    
+}
